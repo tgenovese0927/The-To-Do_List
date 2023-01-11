@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #F4E7D7;
+}
+
+.bg-image {
+     background-size: cover;
+     padding-top: 150px;
+     padding-bottom: 100px;
+        }
+
+h1 {
+  font-weight: 800;
+  font-size: 75px;
+  font-family: 'Caveat', cursive
+}
+
+#larger {
+font-size: 20px;
+}
+
+.post-preview > a {
+  color: #0F0F0F;
+}
+
+.post-preview > a:focus, .post-preview > a:hover {
+  text-decoration: none;
+  color: #532E1C;
+}
+
+.post-preview > a > .post-title {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.post-preview > a > .post-subtitle {
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+
+.post-preview > .post-meta {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+  color: #868e96;
+}
+
+.post-preview > .post-meta > a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+  text-decoration: underline;
+  color: #0085A1;
+}
+
+@media only screen and (min-width: 768px) {
+  .post-preview > a > .post-title {
+    font-size: 36px;
+  }
+
+#background_image {
+  background-image: url('old-paper.jpg');
+
+   background-size: cover;
+   padding-top: 150px;
+   padding-bottom: 100px;
+
+}
+.space {
+  padding-top: 50px;
+}
+
+
+
